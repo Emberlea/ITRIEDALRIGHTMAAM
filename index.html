@@ -1,0 +1,28 @@
+<html> 
+    <head> 
+        <title> 
+            Family Book 
+        </title> 
+        <link rel="stylesheet" href="style.css">
+     </head>
+      <body> 
+          <p id="firstpara">
+               My Family Book! 
+            </p> 
+            <img id="dav" src="My-Family-Tree-Book-Template-Download.jpg"> 
+            <br> 
+            <div> 
+                <button type="button" onclick="nextone()">
+                    Next!
+                </button>
+                
+                 </div> 
+                 <script> 
+                 var pics=["stick-figure-dad-clipart-4.jpg","clipart-mom-cartoon-3.jpg","12-years-clipart-9.jpg","https://i.pinimg.com/originals/d4/aa/3f/d4aa3ff64945d0a27f3923f022121db5.jpg","mom-standing-clipart-3.jpg","1-mature-man-with-mustache-jogging-cartoon-clipart.jpg","image_processing20200424-29859-58cansr.png","2-22010_family-clipartcartoon-grandmother-standing-clipart.png"]; 
+                 var nombre=["Sudhir Kumar","Rashmi Kumar","Nainika Kumar","Ace the Pineapple Conure","Babli Mausi","Baua Mausaji","Nanaji","Nanima"] 
+                 var n=0; function nextone(){ document.getElementById("dav").src=pics[n];
+                 document.getElementById("firstpara").innerHTML=nombre[n] 
+                 n++ } 
+                 </script> 
+                 </body> 
+                 </html>
